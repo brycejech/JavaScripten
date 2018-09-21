@@ -6,7 +6,7 @@ function CustomError(message){
 }
 
 // Ensure CustomError is instanceof Error
-CustomError.prototype             =  Object.create(Error.prototype);
+CustomError.prototype = Object.create(Error.prototype);
 
 // Write the name and constructor props back to CustomError
 // so that they aren't pointing to Error prototype
