@@ -8,7 +8,7 @@
     =====
     
     const val = safeAccess(obj, 'nested.property.path');
-/*
+*/
 
 if(module && module.exports) module.exports = safeAccess;
 
